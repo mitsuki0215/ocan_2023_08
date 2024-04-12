@@ -1,0 +1,296 @@
+.index_h1 {
+    font-size: 80px;
+    padding: 20px;
+    line-height: 0.75em;
+    color: black;
+  }
+  
+  .contents {
+    margin: auto;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  
+  .index_botton_listening {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #9fc5e0;
+    background-color: #9fc5e0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+  
+  .index_botton_reading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #9aeabc;
+    background-color: #9aeabc;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+  
+  .index_botton_grammar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #e5ea99;
+    background-color: #e5ea99;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+  
+  .index_botton_word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 0 3px #ea9999;
+    background-color: #ea9999;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+  
+  .index_body {
+    height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: rgb(246, 246, 246);
+  }
+  
+  .grammar_body {
+    height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: #f6f9d5;
+  }
+  
+  .listening_body {
+    height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: #d1e5f5;
+  }
+  
+  .reading_body {
+    height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: #d8f6e5;
+  }
+  
+  .word_body {
+    height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: #fbd5d5;
+  }
+  
+  
+  body {
+      height: 80px;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background-color: #fff;
+  }
+  
+  .headline {
+    font-size: 50px;
+    margin: 40px;
+  }
+  
+  .result_body {
+      height: 100%;
+      width: 100%;
+      padding: 15px 0;
+      margin: 20px;
+      text-align: center;
+      background:linear-gradient(20deg, #fbd5d5 20%, #f6f9d5 40%, #d8f6e5 60%, #d1e5f5 80%) 
+  }
+  
+  .result_h2 {
+    font-size: 30px;
+    line-height: 0.65em;
+  }
+  
+  .result_h4 {
+    font-size: 20px;
+    line-height: 0.50em;
+  }
+  
+  .result_img {
+    margin: 20px;
+  }
+  
+    input[type="submit"] {
+      align-self: center;
+      font-size: 20px;
+      padding: 20px, 10px;
+      margin: 30px;
+    }
+    
+  
+  
+    input[type="radio"] {
+      position: relative;
+      top: 2px;
+    }
+  
+  .flat.border1 {
+    align-self: center;
+    font-size: 20px;
+    padding: 20px, 10px;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    /* 幅の指定 */
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* 色の指定 */
+    background: linear-gradient(135deg, #f5d2d6, #f63636);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #f63636;
+    background: #fff;
+    color: #f63636;
+  }
+  .flat.border1:hover {
+    background: #f63636;
+    color: #fff;
+  }
+  .flat.border1:active, .flat.border1:focus {
+    top: 2px;
+  }
+  
+  .flat.border2 {
+    align-self: center;
+    font-size: 20px;
+    padding: 20px, 10px;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    /* 幅の指定 */
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* 色の指定 */
+    background: linear-gradient(135deg, #f6f9d5, #d8ea0f);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #d8ea0f;
+    background: #fff;
+    color: #d8ea0f;
+  }
+  .flat.border2:hover {
+    background: #d8ea0f;
+    color: #fff;
+  }
+  .flat.border2:active, .flat.border2:focus {
+    top: 2px;
+  }
+  
+  .flat.border3 {
+    align-self: center;
+    font-size: 20px;
+    padding: 20px, 10px;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    /* 幅の指定 */
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* 色の指定 */
+    background: linear-gradient(135deg, #d8f6e5, #0bee6e);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #0bee6e;
+    background: #fff;
+    color: #0bee6e;
+  }
+  .flat.border3:hover {
+    background: #0bee6e;
+    color: #fff;
+  }
+  .flat.border3:active, .flat.border3:focus {
+    top: 2px;
+  }
+  
+  .flat.border4 {
+    align-self: center;
+    font-size: 20px;
+    padding: 20px, 10px;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    /* 幅の指定 */
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* 色の指定 */
+    background: linear-gradient(135deg, #d1e5f5, #0f93fe);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #0f93fe;
+    background: #fff;
+    color: #0f93fe;
+  }
+  .flat.border4:hover {
+    background: #0f93fe;
+    color: #fff;
+  }
+  .flat.border4:active, .flat.border4:focus {
+    top: 2px;
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/index.css">
+        <title>BohPJ</title>
+    </head>
+    <body class="result_body">
+        <header>
+            <h1 class="headline">あなたにぴったりな英語参考書は</h1>
+        </header>
+        <div>
+            {% set indices = range(data_path|length) %}
+            {% for i in indices %}
+                {% set path = data_path[i] %}
+                {% set image_file_name = path.split("/")[-1].split(".")[0] %}
+                <h2 class="result_h2">第{{ (i+1)|string }}位</h2>
+                <h4 class="result_h4">{{ image_file_name }}</h4>
+                <h4 class="result_h4">コサイン類似度: {{ result[i] }}</h4>
+                <img class="result_img" src="{{ path }}" width="200" height="275">
+            {% endfor %}
+        </div> 
+</body>
+</html>
+
+
+
+
+
